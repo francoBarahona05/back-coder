@@ -4,21 +4,16 @@ class ticketManager {
       this.events = [
       ];
    }
-   idDinamic = ()=>{
-      (Math.random()*100).toString(36).slice(3)  
-   }
-
    getEvent = ()=>{
       return this.events
    }
 
    addEvent = (title,descriptions,price,thumbnail,code,stock)=>{
-      const id  = this.idDinamic()
       if (this.events.find(elem => elem.code === code)) {
          throw new error("el producto ya existe");
       }
       this.events.push({
-         id,
+         id: (Math.random()*100).toString(36).slice(3),
          title,
          descriptions,
          price,
