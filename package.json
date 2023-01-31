@@ -1,0 +1,20 @@
+{
+  "name": "back-coder",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "primer_desafio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoBarahona05/back-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoBarahona05/back-coder/issues"
+  },
+  "homepage": "https://github.com/francoBarahona05/back-coder#readme"
+}
