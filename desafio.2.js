@@ -66,14 +66,7 @@ app.get(`/limit`, (req , res)=>{
    res.send({user: valor.title , query: req.query })
 })
 
-app.get(`/limit`, (req , res)=>{
-   const {id,title} = req.query
-   const nuevo = new productManager();
-   const valores = Object.values(nuevo.readProduct())
-    let valor = valores.find(item => item.id === id)
 
-   res.send({user: valor.title , query: req.query })
-})
 function main() {
     desafio()
     mostrar()
