@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mbzg",
+    "title": "funko maria",
+    "description": "funko de coleccion",
+    "price": 500,
+    "thumbnail": "https//www.funko.coleccion.com"
+  },
+  {
+    "id": "c0tg",
+    "title": "funko franco",
+    "description": "funko de coleccion unico",
+    "price": 500,
+    "thumbnail": "http//www.funko.coleccion.com"
+  },
+  {
+    "id": "0dt",
+    "title": "elefante",
+    "description": "animal",
+    "price": 100,
+    "thumbnail": "http//:animal.com"
+  }
+]

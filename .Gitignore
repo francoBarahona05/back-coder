@@ -1,0 +1,4 @@
+#ignorar los siguientes archivos
+node_modules
+primer_desafio.js
+index.html
